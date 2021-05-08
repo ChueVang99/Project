@@ -18,7 +18,7 @@
           </li>
         </ul>
         <div class="btn-group">
-          <button mat-raised-button color="accent" *ngIf="!currentUser">Logout</button>
+          <button mat-raised-button color="accent" *ngIf="!currentUser" (click)="logout()">Logout</button>
         </div>
       </div>
     </nav>
